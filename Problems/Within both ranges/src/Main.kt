@@ -1,0 +1,1 @@
+fun main() = print(Array(5) { readLine()!!.toInt() }.let { it[4] in it[0]..it[1] && it[4] in it[2]..it[3] })
